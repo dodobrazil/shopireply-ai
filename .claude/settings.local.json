@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl *)",
+      "Bash(supabase --version)",
+      "Bash(npx supabase *)",
+      "Read(//c/Users/sungu/.supabase/**)",
+      "Read(//c/Users/sungu/.config/**)",
+      "Read(//c/Users/sungu/AppData/Roaming/**)",
+      "Bash(PGPASSWORD=\"UDX!/-jpFULFar6\" psql \"postgresql://postgres:UDX\\\\!/-jpFULFar6@db.jnqyniqltjzjlhhgweqi.supabase.co:5432/postgres\" -c \"SELECT 1\")",
+      "Bash(node -e ' *)",
+      "Bash(npm install *)"
+    ]
+  }
+}

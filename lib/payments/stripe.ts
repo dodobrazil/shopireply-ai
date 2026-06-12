@@ -24,10 +24,7 @@ export function getStripe(): Stripe | null {
 }
 
 export function isStripeConfigured(): boolean {
-  return !!(
-    process.env.STRIPE_SECRET_KEY &&
-    process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY
-  );
+  return !!process.env.STRIPE_SECRET_KEY;
 }
 
 export const STRIPE_PLANS = {

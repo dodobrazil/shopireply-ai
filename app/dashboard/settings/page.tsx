@@ -30,11 +30,7 @@ import {
   Check,
 } from "lucide-react";
 
-// Note: isStripeConfigured is only available server-side normally
-// We'll check via API or pass as prop. For simplicity, check env on client:
-const STRIPE_ENABLED = !!(
-  typeof window !== "undefined" && process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY
-);
+const STRIPE_ENABLED = true;
 
 export default function SettingsPage() {
   const { toast } = useToast();

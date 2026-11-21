@@ -8,7 +8,7 @@
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+
@@ -176,11 +176,11 @@ Or use the Vercel dashboard:
 **Milestone tracker:**
 - Week 1: 20 signups, 100 generations
 - Week 2: 5 paid users ($50 MRR)
-- Week 4: 10 paid users ($100 MRR) ✅
+- Week 4: 10 paid users ($100 MRR) 
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 shopireply-ai/
@@ -210,7 +210,7 @@ shopireply-ai/
 
 ---
 
-## 🔧 Development
+## Development
 
 ```bash
 npm run dev         # Start development server
@@ -222,7 +222,7 @@ npm run test        # Run unit tests
 
 ---
 
-## 📋 Vercel Deployment Checklist
+## Vercel Deployment Checklist
 
 - [ ] All required env vars set in Vercel dashboard
 - [ ] Supabase migrations run
@@ -239,14 +239,14 @@ npm run test        # Run unit tests
 
 ---
 
-## 🔑 Complete Environment Variables
+## Complete Environment Variables
 
 | Variable | Required | Description |
 |----------|----------|-------------|
-| `NEXT_PUBLIC_SUPABASE_URL` | ✅ | Supabase project URL |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | ✅ | Supabase anon key |
-| `SUPABASE_SERVICE_ROLE_KEY` | ✅ | Supabase service role key (server only) |
-| `AI_API_KEY` | ✅ | OpenAI or compatible API key |
+| `NEXT_PUBLIC_SUPABASE_URL` | | Supabase project URL |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | | Supabase anon key |
+| `SUPABASE_SERVICE_ROLE_KEY` | | Supabase service role key (server only) |
+| `AI_API_KEY` | | OpenAI or compatible API key |
 | `AI_BASE_URL` | Optional | AI endpoint (default: OpenAI) |
 | `AI_MODEL` | Optional | Model name (default: gpt-4o-mini) |
 | `STRIPE_SECRET_KEY` | Optional | Enables Stripe checkout |
@@ -262,6 +262,6 @@ npm run test        # Run unit tests
 
 ---
 
-## 📄 License
+## License
 
 MIT — Build, modify, and sell however you like.
